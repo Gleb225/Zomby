@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17799856, g: 0.22285558, b: 0.30216002, a: 1}
+  m_IndirectSpecularColor: {r: 0.17799607, g: 0.22285241, b: 0.30215627, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2da704857bb4740cab563edcc7445f66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2da704857bb4740cab563edcc7445f66, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5228,7 +5228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134650e39720d4d5db0437a9c447d7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9.5
+  rigidbody: {fileID: 1035408305}
+  animator: {fileID: 1035408307}
+  speed: 5
   rotationSpeed: 40
 --- !u!54 &1035408305
 Rigidbody:
@@ -5280,6 +5282,11 @@ CapsuleCollider:
   m_Height: 1.7659954
   m_Direction: 1
   m_Center: {x: 0.0073463917, y: 0.88389903, z: -0.014684334}
+--- !u!95 &1035408307 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 2da704857bb4740cab563edcc7445f66, type: 3}
+  m_PrefabInstance: {fileID: 24419677}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1041855835
 GameObject:
   m_ObjectHideFlags: 0
